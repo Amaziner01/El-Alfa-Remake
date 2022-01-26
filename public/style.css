@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+}
+
+.centered {
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+    width: 48%;
+    aspect-ratio: 9/6;
+}
+
+.btn-pad {
+    margin-top: 20%;
+    visibility: hidden;
+}
+
+#cvs {
+    width: 100%;
+    max-width: 800px;
+
+    margin-top: 10%;
+    background: white;
+}
+
+@media only screen and (max-device-width: 640px) {
+    .btn-pad {
+        visibility: visible;
+    }
+}
